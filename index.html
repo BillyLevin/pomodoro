@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Pacifico" rel="stylesheet">
+  <title>Pomodoro Clock</title>
+</head>
+
+<body>
+  <audio id="alert" src="alert.wav" preload="auto"></audio>
+  <div class="container">
+    <h1>Pomodoro Clock</h1>
+    <div class="pomodoro">
+      <div class="set-length">
+        <h3>Session Length</h3>
+        <div class="timer session-timer">
+          <span class="plus session-plus">+</span>
+          <span class="value session-value">25</span>
+          <div class="minutes">minutes</div>
+          <span class="minus session-minus">-</span>
+        </div>
+      </div>
+      <div class="visual-time">
+        <h3 class="status">Time to work...</h3>
+        <div class="time-display">
+          <span class="time-left">25:00</span>
+        </div>
+      </div>
+      <div class="set-length">
+        <h3>Break Length</h3>
+        <div class="timer break-timer">
+          <span class="plus break-plus">+</span>
+          <span class="value break-value">5</span>
+          <div class="minutes">minutes</div>
+          <span class="minus break-minus">-</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <span>Created by
+      <a class="footer-link" href="https://github.com/billylevin/" target="_blank">Billy Levin</a>
+    </span>
+  </footer>
+  <script src="app.js"></script>
+</body>
+
+</html>
