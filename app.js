@@ -1,8 +1,3 @@
-// document.querySelector(".time-display").addEventListener("click", () => {
-//   document.documentElement.style.setProperty("--percentage", "66.6544%");
-// });
-
-// clearTimeout()
 const TimeCtrl = (function() {
   const state = {
     sessionLength: 0,
